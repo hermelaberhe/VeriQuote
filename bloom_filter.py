@@ -5,7 +5,6 @@ from bloom_filter2 import BloomFilter
 def setup_bloom_filter():
     bloom = BloomFilter(max_elements=1000, error_rate=0.1)
 
-    # Trusted real quotes (same as in retrieval)
     real_quotes = [
         "The Earth revolves around the Sun.",
         "Water boils at 100 degrees Celsius.",

@@ -10,9 +10,9 @@ def main():
     documents = retrieve_documents(query)
     
     if documents:
-        generated_output = documents[0]  # Just pick the first match for now
+        generated_output = documents[0]  
     else:
-        generated_output = "The Sun is a cube."  # Simulated hallucination
+        generated_output = "The Sun is a cube."  
     
     print(f"\nGenerated Output: {generated_output}")
     
